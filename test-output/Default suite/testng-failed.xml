@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataFileOpe.dataDriven">
+      <class name="testCases.LoginTest">
         <methods>
-          <include name="testcases1"/>
+          <include name="AddProdToCart"/>
+          <include name="selectApprProduct"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- dataFileOpe.dataDriven -->
+      </class> <!-- testCases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
